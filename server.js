@@ -44,3 +44,5 @@ app.post('/books', (req, res) => {
 app.listen(PORT, () => {
   console.log("Server running on port ${5000}");
 });
+
+// To run it: backend: node server.js, then main: npm start
